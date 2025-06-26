@@ -1,7 +1,10 @@
+![logo](images/mall.svg)
 
-  # 盖星星的博客
-  [GitHub](https://gitee.com/iloveyougai)
-  [Get Started](README.md) 
-  [开始阅读](README.md)
+# 技术笔记
+
+> 技术笔记
+
+代码记录
 
 
+[Get Started](README.md)
