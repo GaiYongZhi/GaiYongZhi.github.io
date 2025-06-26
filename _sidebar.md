@@ -37,14 +37,12 @@
 
 * 前端
   * css
-    * [前端css工具.html](web/css/%E5%89%8D%E7%AB%AFcss%E5%B7%A5%E5%85%B7.html)
     * [前端css工具我下班都更早了.htm](web/css/%E5%89%8D%E7%AB%AFcss%E5%B7%A5%E5%85%B7%E6%88%91%E4%B8%8B%E7%8F%AD%E9%83%BD%E6%9B%B4%E6%97%A9%E4%BA%86.html)
  
 * [Myers差分算法的理解实现可视化](code/算法/Myers差分算法的理解实现可视化.html ':include')
 *  office
-  *  [pdfBox](code/office/pdfbox/pdfbox3.0版本获取书签_目录方法.html  ':include')
-  * [pdfbox3.0版本获取书签_目录方法](code/office/pdfbox/pdfbox3.0版本获取书签_目录方法.html  ':include')
-  * [使用pdfbox2.0.15版本，将pdf文件转为图片时中文显示乱码_pdfbox识别两种字体.html](code/office/pdfbox/使用pdfbox2.0.15版本，将pdf文件转为图片时中文显示乱码_pdfbox识别两种字体.html ':include')
+    * [pdfbox3.0版本获取书签_目录方法](code/office/pdfbox/pdfbox3.0版本获取书签_目录方法.html  ':include')
+    * [使用pdfbox2.0.15版本，将pdf文件转为图片时中文显示乱码_pdfbox识别两种字体.html](code/office/pdfbox/使用pdfbox2.0.15版本，将pdf文件转为图片时中文显示乱码_pdfbox识别两种字体.html ':include')
 
 * Docker
    *  [docker命令](docker/commad.md)
