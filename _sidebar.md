@@ -34,11 +34,16 @@
   * [mybatis动态sql](code/mybatis/MyBatis动态SQL.html ':include')
 * Maven
   *  [maven打包命令.md](code/maven/maven%E6%89%93%E5%8C%85%E5%91%BD%E4%BB%A4.md)
-
+* ES
+  * [Elasticsearch使用问题—TOO_MANY_REQUESTS_12_disk usage exceeded_flood-stage_watermark.html](code/es/Elasticsearch%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E2%80%94TOO_MANY_REQUESTS_12_disk%20usage%20exceeded_flood-stage_watermark.html)
 * 前端
   * css
     * [前端css工具我下班都更早了.htm](web/css/%E5%89%8D%E7%AB%AFcss%E5%B7%A5%E5%85%B7%E6%88%91%E4%B8%8B%E7%8F%AD%E9%83%BD%E6%9B%B4%E6%97%A9%E4%BA%86.html)
- 
+* Go
+  * [跨域共享CORS详解及Gin配置跨域.html](https://www.cnblogs.com/you-men/p/14054348.html)
+  * [跨域共享CORS详解及Gin配置跨域](code/go/跨域共享CORS详解及Gin配置跨域.html  ':include :type=iframe width=100%')
+
+
 * [Myers差分算法的理解实现可视化](code/算法/Myers差分算法的理解实现可视化.html ':include')
 *  office
     * [pdfbox3.0版本获取书签_目录方法](code/office/pdfbox/pdfbox3.0版本获取书签_目录方法.html  ':include')
