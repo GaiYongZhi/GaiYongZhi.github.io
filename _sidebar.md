@@ -55,6 +55,7 @@
    *  [docker+vllm快速上手以部署Qwen2.5通义千问](docker/docker+vllm快速上手以部署Qwen2.5通义千问为例.html  ':include' )
    *  [把大象塞进冰箱总共分几步讲讲dockerfile里conda的移植.html](docker/%E6%8A%8A%E5%A4%A7%E8%B1%A1%E5%A1%9E%E8%BF%9B%E5%86%B0%E7%AE%B1%E6%80%BB%E5%85%B1%E5%88%86%E5%87%A0%E6%AD%A5%E8%AE%B2%E8%AE%B2dockerfile%E9%87%8Cconda%E7%9A%84%E7%A7%BB%E6%A4%8D.html)
    *  [容器化运行cosyvoice2服务_cosyvoice2docker部署.html](docker/%E5%AE%B9%E5%99%A8%E5%8C%96%E8%BF%90%E8%A1%8Ccosyvoice2%E6%9C%8D%E5%8A%A1_cosyvoice2docker%E9%83%A8%E7%BD%B2.html)
+   *  [如何选择你的cuda镜像CUDA和cuDNN_nvidia cuda镜像.html](docker/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84cuda%E9%95%9C%E5%83%8FCUDA%E5%92%8CcuDNN_nvidia%20cuda%E9%95%9C%E5%83%8F.html)
 * minio
   *  [AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传](code/minio/AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传.html ':include')
   *  [gitee项目-使用vue3 elementplus minio springboot 实现大文件的分片上传、断点续传、秒传的功能demo](https://gitee.com/Gary2016/minio-upload ':include')
