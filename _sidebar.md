@@ -19,7 +19,9 @@
 * Linux
   *  [字体库安装](code/office/Linux安装中文字体库.html ':include')
   *  [防火墙](linux/防火墙.md)
-  * [Swap交换分区设置教程](linux/Linux中Swap交换分区设置教程以及Swap大小与内存的关系.html  ':include')
+  *  [Swap交换分区设置教程](linux/Linux中Swap交换分区设置教程以及Swap大小与内存的关系.html  ':include')
+  *  [Linux服务器硬盘挂载小记录_服务器挂载硬盘-CSDN博客(2025_7_15).html](linux/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%A1%AC%E7%9B%98%E6%8C%82%E8%BD%BD%E5%B0%8F%E8%AE%B0%E5%BD%95_%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%82%E8%BD%BD%E7%A1%AC%E7%9B%98-CSDN%E5%8D%9A%E5%AE%A2%282025_7_15%29.html)
+  *  [apt包和依赖下载.md](linux/apt%E5%8C%85%E5%92%8C%E4%BE%9D%E8%B5%96%E4%B8%8B%E8%BD%BD.md)
 * SpringBoot
    * [Spring Boot非常实用的内置功能](code/SpringBoot/SpringBoot非常实用的内置功能.html ':include')
    * [SpringBoot如何进行参数校验](code/SpringBoot/SpringBoot如何进行参数校验.html ':include')
@@ -42,7 +44,7 @@
 * Go
   * [跨域共享CORS详解及Gin配置跨域.html](https://www.cnblogs.com/you-men/p/14054348.html)
   * [跨域共享CORS详解及Gin配置跨域](code/go/跨域共享CORS详解及Gin配置跨域.html  ':include :type=iframe width=100%')
-
+  * [go从零开始Wails2编写Web桌面应用.html](go/go%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8BWails2%E7%BC%96%E5%86%99Web%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8.html)
 
 * [Myers差分算法的理解实现可视化](code/算法/Myers差分算法的理解实现可视化.html ':include')
 *  office
@@ -56,6 +58,8 @@
    *  [把大象塞进冰箱总共分几步讲讲dockerfile里conda的移植.html](docker/%E6%8A%8A%E5%A4%A7%E8%B1%A1%E5%A1%9E%E8%BF%9B%E5%86%B0%E7%AE%B1%E6%80%BB%E5%85%B1%E5%88%86%E5%87%A0%E6%AD%A5%E8%AE%B2%E8%AE%B2dockerfile%E9%87%8Cconda%E7%9A%84%E7%A7%BB%E6%A4%8D.html)
    *  [容器化运行cosyvoice2服务_cosyvoice2docker部署.html](docker/%E5%AE%B9%E5%99%A8%E5%8C%96%E8%BF%90%E8%A1%8Ccosyvoice2%E6%9C%8D%E5%8A%A1_cosyvoice2docker%E9%83%A8%E7%BD%B2.html)
    *  [如何选择你的cuda镜像CUDA和cuDNN_nvidia cuda镜像.html](docker/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84cuda%E9%95%9C%E5%83%8FCUDA%E5%92%8CcuDNN_nvidia%20cuda%E9%95%9C%E5%83%8F.html)
+   *  [Docker基础镜像的“最佳”空闲指令为什么推荐CMD sleep, infinity.html](docker/Docker%E5%9F%BA%E7%A1%80%E9%95%9C%E5%83%8F%E7%9A%84%E2%80%9C%E6%9C%80%E4%BD%B3%E2%80%9D%E7%A9%BA%E9%97%B2%E6%8C%87%E4%BB%A4%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8E%A8%E8%8D%90%20%60CMD%20%5B%E2%80%9Csleep%E2%80%9C%2C%20%E2%80%9Cinfinity%E2%80%9C%5D.html)
+   *  [软连接迁移Docker的默认安装(存储)目录_docker软连接.html](docker/%E8%BD%AF%E8%BF%9E%E6%8E%A5%E8%BF%81%E7%A7%BBDocker%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AE%89%E8%A3%85%28%E5%AD%98%E5%82%A8%29%E7%9B%AE%E5%BD%95_docker%20%E8%BD%AF%E8%BF%9E%E6%8E%A5.html)
 * minio
   *  [AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传](code/minio/AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传.html ':include')
   *  [gitee项目-使用vue3 elementplus minio springboot 实现大文件的分片上传、断点续传、秒传的功能demo](https://gitee.com/Gary2016/minio-upload ':include')
@@ -70,9 +74,9 @@
 * [线性代数笔记](math/README.md)
 * [音标](音标/音标-表格.md)
   * [周育如音标课](音标/音标-表格.md)
-
-
-
+* [为什么我们打开一个音频文件看到的dB是负数_音量db负数.html](code/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AA%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E7%9C%8B%E5%88%B0%E7%9A%84dB%E6%98%AF%E8%B4%9F%E6%95%B0_%E9%9F%B3%E9%87%8Fdb%E8%B4%9F%E6%95%B0.html)
+* [搞定音频技术.html](code/%E6%90%9E%E5%AE%9A%E9%9F%B3%E9%A2%91%E6%8A%80%E6%9C%AF.html)
+* [语音技术,线性模型,概率图](https://www.zhangzhenhu.com/audio/feature.html)
 * [Java 全栈知识体系,一些springboot封装](https://pdai.tech/md/spring/springboot/springboot-x-redis-lettuce-wrap.html)
 
 
