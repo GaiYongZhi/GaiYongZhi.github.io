@@ -22,6 +22,9 @@
   *  [Swap交换分区设置教程](linux/Linux中Swap交换分区设置教程以及Swap大小与内存的关系.html  ':include')
   *  [Linux服务器硬盘挂载小记录_服务器挂载硬盘-CSDN博客(2025_7_15).html](linux/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%A1%AC%E7%9B%98%E6%8C%82%E8%BD%BD%E5%B0%8F%E8%AE%B0%E5%BD%95_%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%82%E8%BD%BD%E7%A1%AC%E7%9B%98-CSDN%E5%8D%9A%E5%AE%A2%282025_7_15%29.html)
   *  [apt包和依赖下载.md](linux/apt%E5%8C%85%E5%92%8C%E4%BE%9D%E8%B5%96%E4%B8%8B%E8%BD%BD.md)
+  *  [Linux安装CUDA的正确姿势_linux 安装cuda.html](linux/Linux%E5%AE%89%E8%A3%85CUDA%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF_linux%20%E5%AE%89%E8%A3%85cuda.html)  [Linux安装NVIDIA显卡驱动的正确姿势_linux安装nvidia驱动.html](linux/Linux%E5%AE%89%E8%A3%85NVIDIA%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF_linux%E5%AE%89%E8%A3%85nvidia%E9%A9%B1%E5%8A%A8.html)
+  *  [Linux部署程序之glibc兼容性问题.html](linux/Linux%E9%83%A8%E7%BD%B2%E7%A8%8B%E5%BA%8F%E4%B9%8Bglibc%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98.html)
+  *  [Linux安装CUDA的正确姿势_linux 安装cuda.html](linux/Linux%E5%AE%89%E8%A3%85CUDA%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF_linux%20%E5%AE%89%E8%A3%85cuda.html)
 * SpringBoot
    * [Spring Boot非常实用的内置功能](code/SpringBoot/SpringBoot非常实用的内置功能.html ':include')
    * [SpringBoot如何进行参数校验](code/SpringBoot/SpringBoot如何进行参数校验.html ':include')
