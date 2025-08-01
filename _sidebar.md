@@ -69,6 +69,11 @@
   *  [gitee项目-通用存储操作 支持所有兼容amazon-s3协议的云存储，如minio、oss、cos等](https://gitee.com/say8129/say-common-oss ':include')
 * redis
   *  [springboot集成redis](code/redis/springbootRedis.md)
+
+* mysql
+  *  [MySQL升级8.0的新故障utf8mb4_0900_ai_ci是啥.htm](mysql/MySQL%E5%8D%87%E7%BA%A78.0%E7%9A%84%E6%96%B0%E6%95%85%E9%9A%9Cutf8mb4_0900_ai_ci%E6%98%AF%E5%95%A5.html)
+  *  [便捷的批量修改MySQL数据库表及字段的字符集及排序规则.htm](mysql/%E4%BE%BF%E6%8D%B7%E7%9A%84%E6%89%B9%E9%87%8F%E4%BF%AE%E6%94%B9MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E5%8F%8A%E5%AD%97%E6%AE%B5%E7%9A%84%E5%AD%97%E7%AC%A6%E9%9B%86%E5%8F%8A%E6%8E%92%E5%BA%8F%E8%A7%84%E5%88%99.html)
+  *  [修改MySQL数据库-表-字段的字符集和排序规则.md](mysql/%E4%BF%AE%E6%94%B9MySQL%E6%95%B0%E6%8D%AE%E5%BA%93-%E8%A1%A8-%E5%AD%97%E6%AE%B5%E7%9A%84%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E6%8E%92%E5%BA%8F%E8%A7%84%E5%88%99.md)
 * MQ
   *   [rabbitMQ](code/mq/rabbitMQ.md) 
 * AI
