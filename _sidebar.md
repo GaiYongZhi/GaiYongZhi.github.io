@@ -39,6 +39,7 @@
   * [mybatis动态sql](code/mybatis/MyBatis动态SQL.html ':include')
 * Maven
   *  [maven打包命令.md](code/maven/maven%E6%89%93%E5%8C%85%E5%91%BD%E4%BB%A4.md)
+  *  [清理本地仓库脚本.md](code/maven/%E6%B8%85%E7%90%86%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E8%84%9A%E6%9C%AC.md)
 * ES
   * [Elasticsearch使用问题—TOO_MANY_REQUESTS_12_disk usage exceeded_flood-stage_watermark.html](code/es/Elasticsearch%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E2%80%94TOO_MANY_REQUESTS_12_disk%20usage%20exceeded_flood-stage_watermark.html)
 * 前端

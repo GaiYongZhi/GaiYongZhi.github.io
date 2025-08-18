@@ -1,0 +1,165 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="https://unpkg.com/vue@3"></script>
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+    <!-- import JavaScript -->
+    <script src="https://unpkg.com/element-plus"></script>
+    <title>Maven安装工具</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #app{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content{
+            width: 1200px;
+            //高度设置为最小高度为700px,而不是写死
+            min-height: 700px;
+            background: #ffffff;
+
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .parse{
+            margin-bottom: 20px;
+        }
+        .pomAxisInput{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 10px 0;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="content">
+        <div class="pomAxisInput">
+<!--            pom坐标xml输入框-->
+            <el-input style="width: 800px"
+                      type="textarea"
+                      clearable
+                      :rows="6"
+                      v-model="axis.pom"
+                      placeholder="粘贴你的pom坐标,然后点击生成" />
+        </div>
+
+        <div class="parse" >
+            <el-button type="primary" @click="parse">转换</el-button>
+            <el-button type="info" @click="clean">清空</el-button>
+        </div>
+
+<!--        pom表单-->
+        <div class="pomForm">
+            <el-form :model="form" label-width="auto"
+                     style="max-width: 800px"
+                     :label-position="'left'"
+            >
+                <el-form-item label="jar">
+                    <el-input style="width: 800px" clearable v-model="form.jar" placeholder="请输入jar包完整路径" />
+                </el-form-item>
+                <el-form-item label="pomFile">
+                    <el-input style="width: 800px" clearable v-model="form.pomFile" placeholder="请输入pom文件完整路径" />
+                </el-form-item>
+                <el-form-item label="groupId">
+                    <el-input style="width: 400px" clearable v-model="form.groupId" placeholder="请输入groupId" />
+                </el-form-item>
+                <el-form-item label="artifactId">
+                    <el-input style="width: 400px" clearable v-model="form.artifactId" placeholder="请输入artifactId" />
+                </el-form-item>
+                <el-form-item label="version">
+                    <el-input style="width: 400px" clearable v-model="form.version" placeholder="请输入version" />
+                </el-form-item>
+            </el-form>
+
+            <div class="result">
+                <el-input style="width: 800px"
+                          type="textarea"
+                          clearable
+                          :rows="10"
+                          v-model="res"
+                          placeholder="mvn命令" />
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    const App = {
+        data() {
+            return {
+                axis: {
+                    pom:""
+                },
+                form: {
+                    jar:"",
+                    pomFile:"",
+                    groupId: "",
+                    artifactId: "",
+                    version: "",
+                },
+                result: "mvn install:install-file \\\n" +
+                    "  -Dfile= \\\n" +
+                    "  -DpomFile= \\  \n" +
+                    "  -DgroupId= \\ \n" +
+                    "  -DartifactId= \\ \n" +
+                    "  -Dversion= \\ \n" +
+                    "  -Dpackaging=jar"
+                ,
+            };
+        },
+        methods: {
+            parse() {
+                this.form.groupId = this.axis.pom.match(/<groupId>(.*?)<\/groupId>/)[1];
+                this.form.artifactId = this.axis.pom.match(/<artifactId>(.*?)<\/artifactId>/)[1];
+                this.form.version = this.axis.pom.match(/<version>(.*?)<\/version>/)[1];
+            },
+            clean() {
+                this.axis.pom = "";
+                this.form.groupId = "";
+                this.form.artifactId = "";
+                this.form.version = "";
+            }
+        },
+        computed: {
+            res(){
+                let resTmp = "mvn install:install-file \\\n";
+                if (this.form.jar){
+                    resTmp = resTmp +  "  -Dfile=" + this.form.jar + " \\\n"
+                }
+                if (this.form.pomFile){
+                    resTmp = resTmp +  "  -DpomFile=" + this.form.pomFile +  " \\\n"
+                }
+                if (this.form.groupId){
+                    resTmp = resTmp +  "  -DgroupId=" + this.form.groupId + " \\\n"
+                }
+                if (this.form.artifactId){
+                    resTmp = resTmp +   "  -DartifactId=" + this.form.artifactId + " \\\n"
+                }
+                if (this.form.version){
+                    resTmp = resTmp +   "  -Dversion=" + this.form.version + " \\\n"
+                }
+                resTmp = resTmp +   "  -Dpackaging=jar"
+                return resTmp;
+            }
+        },
+    };
+    const app = Vue.createApp(App);
+    app.use(ElementPlus);
+    app.mount("#app");
+</script>
+</body>
+</html>
