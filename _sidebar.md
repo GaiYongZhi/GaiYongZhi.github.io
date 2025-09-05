@@ -1,3 +1,4 @@
+* [优秀博客文章](https://www.cnblogs.com/buchizicai)
 * Java
   *   [快捷代码](code/json/JsonUtils.md)
       *   [Json工具类](code/json/JsonUtils.md)
@@ -16,6 +17,7 @@
     * [5万字长文_Stream和Lambda表达式最佳实践](code/java基础/5万字长文_Stream和Lambda表达式最佳实践.html ':include')
   * Java错误
     *  [依赖MapStruct的项目使用idea启动报错](code/错误/依赖MapStruct的项目使用idea启动报错.html  ':include')
+    *  [Java程序使用vpn无法访问数据库-nacos等服务.html](code/%E9%94%99%E8%AF%AF/Java%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8vpn%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%95%B0%E6%8D%AE%E5%BA%93-nacos%E7%AD%89%E6%9C%8D%E5%8A%A1.html)
 * Linux
   *  [字体库安装](code/office/Linux安装中文字体库.html ':include')
   *  [防火墙](linux/防火墙.md)
@@ -29,19 +31,24 @@
    * [Spring Boot非常实用的内置功能](code/SpringBoot/SpringBoot非常实用的内置功能.html ':include')
    * [SpringBoot如何进行参数校验](code/SpringBoot/SpringBoot如何进行参数校验.html ':include')
    * [Spring事务 @Transactional的使用](code/SpringBoot/Spring_Transactional.md)
-   * Jackson
-      * [SpringBoot中使用Jackson导致Long型数据精度丢失问题.html](code/SpringBoot/jackson/SpringBoot中使用Jackson导致Long型数据精度丢失问题.html)
-      * [空格NBSP造成的JSON解析失败问题.html](code/SpringBoot/jackson/%E7%A9%BA%E6%A0%BCNBSP%E9%80%A0%E6%88%90%E7%9A%84JSON%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98.html)
-   * Spring Security
+   * [Gateway服务网关.html](code/SpringBoot/Gateway%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3.html)
+   * [Feign远程调用.html](code/SpringBoot/Feign%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8.html)
+  * Jackson
+     * [SpringBoot中使用Jackson导致Long型数据精度丢失问题.html](code/SpringBoot/jackson/SpringBoot中使用Jackson导致Long型数据精度丢失问题.html)
+     * [空格NBSP造成的JSON解析失败问题.html](code/SpringBoot/jackson/%E7%A9%BA%E6%A0%BCNBSP%E9%80%A0%E6%88%90%E7%9A%84JSON%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98.html)
+  * Spring Security
      
-
+[MybatisPlus核心功能——实现CRUD增删改查操作(包含条件构造器).html](code/mybatis/MybatisPlus%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E2%80%94%E2%80%94%E5%AE%9E%E7%8E%B0CRUD%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C%28%E5%8C%85%E5%90%AB%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8%29.html)
 * Mybatis
   * [mybatis动态sql](code/mybatis/MyBatis动态SQL.html ':include')
+  * [MybatisPlus核心功能——实现CRUD增删改查操作(包含条件构造器).html](code/mybatis/MybatisPlus%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E2%80%94%E2%80%94%E5%AE%9E%E7%8E%B0CRUD%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C%28%E5%8C%85%E5%90%AB%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8%29.html)
+  * [MybatisPlus——全网配置最全的代码生成器.html](code/mybatis/MybatisPlus%E2%80%94%E2%80%94%E5%85%A8%E7%BD%91%E9%85%8D%E7%BD%AE%E6%9C%80%E5%85%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8.html)
 * Maven
   *  [maven打包命令.md](code/maven/maven%E6%89%93%E5%8C%85%E5%91%BD%E4%BB%A4.md)
   *  [清理本地仓库脚本.md](code/maven/%E6%B8%85%E7%90%86%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E8%84%9A%E6%9C%AC.md)
 * ES
   * [Elasticsearch使用问题—TOO_MANY_REQUESTS_12_disk usage exceeded_flood-stage_watermark.html](code/es/Elasticsearch%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E2%80%94TOO_MANY_REQUESTS_12_disk%20usage%20exceeded_flood-stage_watermark.html)
+  * [ElasticSearch(ES从入门到精通一篇就够了).html](code/es/ElasticSearch%28ES%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86%29.html)
 * 前端
   * css
     * [前端css工具我下班都更早了.htm](web/css/%E5%89%8D%E7%AB%AFcss%E5%B7%A5%E5%85%B7%E6%88%91%E4%B8%8B%E7%8F%AD%E9%83%BD%E6%9B%B4%E6%97%A9%E4%BA%86.html)
