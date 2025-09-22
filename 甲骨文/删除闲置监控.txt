@@ -1,0 +1,7 @@
+不喜欢用保活脚本浪费资源，但是闲置确实会被关机，所以，我直接把他agent给删了，没有被关机的情况，账号也健康。
+
+snap remove oracle-cloud-agent
+snap remove core18
+snap remove lxd
+snap remove core20
+apt autoremove snapd -y --purge
