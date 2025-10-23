@@ -1,4 +1,5 @@
 * [优秀博客文章](https://www.cnblogs.com/buchizicai)
+* [折腾](linux/x/x.md)
 * Java
   *   [快捷代码](code/json/JsonUtils.md)
       *   [Json工具类](code/json/JsonUtils.md)
@@ -72,6 +73,7 @@
    *  [如何选择你的cuda镜像CUDA和cuDNN_nvidia cuda镜像.html](docker/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84cuda%E9%95%9C%E5%83%8FCUDA%E5%92%8CcuDNN_nvidia%20cuda%E9%95%9C%E5%83%8F.html)
    *  [Docker基础镜像的“最佳”空闲指令为什么推荐CMD sleep, infinity.html](docker/Docker%E5%9F%BA%E7%A1%80%E9%95%9C%E5%83%8F%E7%9A%84%E2%80%9C%E6%9C%80%E4%BD%B3%E2%80%9D%E7%A9%BA%E9%97%B2%E6%8C%87%E4%BB%A4%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8E%A8%E8%8D%90%20%60CMD%20%5B%E2%80%9Csleep%E2%80%9C%2C%20%E2%80%9Cinfinity%E2%80%9C%5D.html)
    *  [软连接迁移Docker的默认安装(存储)目录_docker软连接.html](docker/%E8%BD%AF%E8%BF%9E%E6%8E%A5%E8%BF%81%E7%A7%BBDocker%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AE%89%E8%A3%85%28%E5%AD%98%E5%82%A8%29%E7%9B%AE%E5%BD%95_docker%20%E8%BD%AF%E8%BF%9E%E6%8E%A5.html)
+   * [docker安装Mysql8.0的坑之lower_case_table_names_--lower-case-table-names-CSDN博客(2025_10_23).html](docker/docker%E5%AE%89%E8%A3%85Mysql8.0%E7%9A%84%E5%9D%91%E4%B9%8Blower_case_table_names_--lower-case-table-names-CSDN%E5%8D%9A%E5%AE%A2%282025_10_23%29.html)
 * minio
   *  [AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传](code/minio/AWS-S3实现Minio分片上传、断点续传、秒传、分片下载、暂停下载_s3分片上传.html ':include')
   *  [gitee项目-使用vue3 elementplus minio springboot 实现大文件的分片上传、断点续传、秒传的功能demo](https://gitee.com/Gary2016/minio-upload ':include')
