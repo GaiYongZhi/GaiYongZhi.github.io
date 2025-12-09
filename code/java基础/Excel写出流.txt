@@ -1,0 +1,18 @@
+    public void exportExcel(CheckResultQueryDTO detailDTO) {
+        List<CheckTaskResultVO> rows = checkList(detailDTO);
+        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpServletResponse response = servletRequestAttributes.getResponse();
+
+        ExcelWriter writer = ExcelUtil.getWriter(true);
+        writer.write(rows, true);
+        // 默认的，未添加alias的属性也会写出，如果想只写出加了别名的字段，可以调用此方法排除之
+        writer.setOnlyAlias(true);
+
+        response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8");
+        response.setHeader("Content-Disposition","attachment;filename=checkResult.xlsx");
+        ServletOutputStream out=response.getOutputStream();
+
+        writer.flush(out, true);
+        writer.close();
+        IoUtil.close(out);
+    }
